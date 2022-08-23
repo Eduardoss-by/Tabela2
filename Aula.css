@@ -1,0 +1,29 @@
+body {
+	background-color: #ff0000;
+}
+main {
+	widows: 940px;
+	margin: 0 auto;
+
+}
+form {
+ margin: 40px 0;
+
+}
+form label{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	width: 500px;
+	margin-left: 700px;
+}
+form input{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 500px;
+	margin-left: 700px;
+}
+.ale{
+	text-align: center;
+	}
