@@ -1,0 +1,80 @@
+table{
+	margin: 20px 0 40px;
+}
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+td, tr{
+	border: 1px solid #000000;
+	padding: 50px 70px;
+}
+#label {
+	font-size:  50px;
+	text-align: center;
+    color: pink;
+}
+#selecao {
+padding: 100;   
+}
+body {
+	background-color: #ffffff;
+}
+main {
+	widows: 940px;
+	margin: 0 auto;
+
+}
+form {
+ margin: 40px 0;
+
+}
+form label{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	width: 500px;
+	margin-left: 300px;
+}
+form input{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 500px;
+	margin-left: 300px;
+}
+.ale{
+	text-align: left;
+	}
+#selecao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 500px;
+	margin-left: 300px;
+}
+#mensagem {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 500px;
+	margin-left: 300px;
+}	
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+#campo {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 500px;
+	margin-left: 300px;
+}

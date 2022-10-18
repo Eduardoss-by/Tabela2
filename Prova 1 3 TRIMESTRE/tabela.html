@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tabela</title>
+	<link rel="stylesheet" type="text/css" href="tabela.css"/>
+</head>
+<body>
+	
+	<main>
+		<form>
+			
+
+			<table summary="Horário semanal da semana 20">
+ <label id="label"> Tabela </label>
+<thead>
+<tr><th colspan="4">Tabela de horarios</th></tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2"> Audiencias </td>
+<td>Segunda-Feira</td>
+<td>Terça-Feira</td>
+<td>Quarta-Feira</td>
+</tr>
+<tr>
+<td>16:30 </td>
+<td>11:40 </td>
+<td>10:30 </td>
+</tr>
+</tbody>
+</table>
+<div>
+ <label id="label"> Qual Horario Prefere Ser Atendido?</label> 
+</div>
+<div>
+ <select name="Horario" id="selecao">
+  <option value="valor1">Manha</option>
+  <option value="valor2" selected>Tarde</option>
+  <option value="valor3">Noite</option>
+</select>
+</div>
+<label id="label">Formulario</label>
+ 
+	<form>
+
+		<label for="nomesobrenome">Nome e Sobrenome </label>
+		<input type="text"id="nomesobrenome">
+
+		 <label for="email">Email</label>
+		 <input type="text" name="email">
+
+		 <label for="telefone"> Telefone</label>
+		 <input type="text" name="telefone">
+
+		 <label for="mensagem">Mensagem</label>
+		 <textarea cols="70" rows="10" id="mensagem"></textarea>
+
+	    <fieldset id="campo">
+    <legend>Deseja Receber Nossas Novidades:</legend>
+
+    <div>
+      <input type="checkbox" id="scales" name="scales" checked>
+      <label for="scales">Sim</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="horns" name="horns">
+      <label for="horns">Não</label>
+    </div>
+</fieldset>
+
+		 <input type="submit" value="Enviar Formlario">
+</body>
+</html>
